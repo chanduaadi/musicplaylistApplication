@@ -1,0 +1,65 @@
+.list-item-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+}
+
+.card-img {
+  width: 200px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.img-names-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-name {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+.music-type {
+  color: #3b82f6;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+.time-container {
+  display: flex;
+  align-items: center;
+}
+
+.time-text {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-right: 40px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+}
